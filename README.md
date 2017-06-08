@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+
+````html
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
@@ -96,4 +96,4 @@ function consoleText(words, id, colors) {
 }
 </script>
 </body>
-</html>
+```
