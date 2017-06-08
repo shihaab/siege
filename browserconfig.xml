@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="https://shihaab.github.io/siege/mstile-150x150.png?v=Om5zla4eyY"/>
+            <wide310x150logo src="https://shihaab.github.io/siege/mstile-310x150.png?v=Om5zla4eyY"/>
+            <TileColor>#b91d47</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
