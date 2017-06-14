@@ -101,10 +101,6 @@
   <div class="w3-container w3-padding-32" id="loadout">
 	  	<h3 class="w3-padding-16 w3-center">Loadout</h3>
 		<div class="container">
-			<div class="rainbow r6-text">
-				<h2>Lorem ipsum</h2>
-				<p>Loadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operator</p>
-			</div>
 			<div class="tbs-table">
 				<table class="container">
 					<thead>
@@ -124,37 +120,37 @@
 						</tr>
 						<tr>
 							<td>Primary 2</td>
-							<td>R4-C</td>
+							<td onclick="document.getElementById('id02').style.display='block'">R4-C</td>
 							<td>31+210</td>
 							<td>Assault Rifle</td>
 						</tr>
 						<tr>
 							<td>Secondary 1</td>
-							<td>M45 MEUSOC</td>
+							<td onclick="document.getElementById('id03').style.display='block'">M45 MEUSOC</td>
 							<td>8+35</td>
 							<td>Handgun</td>
 						</tr>
 						<tr>
 							<td>Secondary 2</td>
-							<td>5.7 USG</td>
+							<td onclick="document.getElementById('id04').style.display='block'">5.7 USG</td>
 							<td>21+60</td>
 							<td>Handgun</td>
 						</tr>
 						<tr>
 							<td>Gadget 1</td>
-							<td>Breach Charge</td>
+							<td onclick="document.getElementById('id05').style.display='block'">Breach Charge</td>
 							<td>3 X</td>
-							<td>N/A</td>
+							<td>Gadget</td>
 						</tr>
 						<tr>
 							<td>Gadget 2</td>
-							<td>Stun Grenade</td>
+							<td onclick="document.getElementById('id06').style.display='block'">Stun Grenade</td>
 							<td>3 X</td>
-							<td>N/A</td>
+							<td>Gadget</td>
 						</tr>
 						<tr>
 							<td>Unique Gadget</td>
-							<td>Breaching Rounds</td>
+							<td onclick="document.getElementById('id07').style.display='block'">Breaching Rounds</td>
 							<td>2 X</td>
 							<td>M120 Crem</td>
 						</tr>
@@ -189,10 +185,233 @@
 						</tr>
 						<tr>
 							<td>32 Suppressed</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							
 						</tr>
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!---------------->
+			<div id="id02" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id02').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>R4-C</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Mobility</h1></th>
+							<th><h1>Magazine size</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>41</td>
+							<td>860 RPM</td>
+							<td>50</td>
+							<td>30+1</td>
+						</tr>
+						<tr>
+							<td>34 Suppressed</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!---------------->
+			<div id="id03" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id03').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>M45 MEUSOC</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Mobility</h1></th>
+							<th><h1>Magazine size</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>47</td>
+							<td>~360 RPM</td>
+							<td>50</td>
+							<td>7+1</td>
+						</tr>
+						<tr>
+							<td>39 Suppressed</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!---------------->
+			<div id="id04" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id04').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>5.7 USG</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Mobility</h1></th>
+							<th><h1>Magazine size</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>27</td>
+							<td>360 RPM</td>
+							<td>50</td>
+							<td>20+1</td>
+						</tr>
+						<tr>
+							<td>22 Suppressed</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!---------------->
+			<div id="id05" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id05').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>Breach Charge</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Mobility</h1></th>
+							<th><h1>Ammunition</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Fatal/Blast Damage</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>3</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!---------------->
+			<div id="id06" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id05').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>Stun Grenade</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Effect</h1></th>
+							<th><h1>Ammunition</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>5</td>
+							<td>N/A</td>
+							<td>Stun/Flash</td>
+							<td>3</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!---------------->
+			<div id="id07" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id07').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>Breaching round</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Mobility</h1></th>
+							<th><h1>Ammunition</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Blast Damage(50 Direct hit)</td>
+							<td>N/A</td>
+							<td>N/A</td>
+							<td>2</td>
+						</tr>
+						
 					</tbody>
 				</table>
 			</div>
