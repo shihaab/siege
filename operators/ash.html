@@ -25,6 +25,7 @@
 <script src="../public/js/bootstrap.js"></script>
 <script src="https://use.fontawesome.com/c06b312836.js"></script>
 <link rel="stylesheet" href="../public/css/main.css" type="text/css">
+<link rel="stylesheet" href="../public/css/table.css" type="text/css">
 <body oncopy="return false" oncut="return false" onpaste="return false">
 
 <!-- Navbar (sit on top) -->
@@ -104,6 +105,104 @@
 				<h2>Lorem ipsum</h2>
 				<p>Loadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operatorLoadout of operator</p>
 			</div>
+			<div class="tbs-table">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Loadout</h1></th>
+							<th><h1>Weapon/Gadget</h1></th>
+							<th><h1>Ammo</h1></th>
+							<th><h1>Type</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Primary 1</td>
+							<td onclick="document.getElementById('id01').style.display='block'">G36C</td>
+							<td>31+210</td>
+							<td>Assault Rifle</td>
+						</tr>
+						<tr>
+							<td>Primary 2</td>
+							<td>R4-C</td>
+							<td>31+210</td>
+							<td>Assault Rifle</td>
+						</tr>
+						<tr>
+							<td>Secondary 1</td>
+							<td>M45 MEUSOC</td>
+							<td>8+35</td>
+							<td>Handgun</td>
+						</tr>
+						<tr>
+							<td>Secondary 2</td>
+							<td>5.7 USG</td>
+							<td>21+60</td>
+							<td>Handgun</td>
+						</tr>
+						<tr>
+							<td>Gadget 1</td>
+							<td>Breach Charge</td>
+							<td>3 X</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>Gadget 2</td>
+							<td>Stun Grenade</td>
+							<td>3 X</td>
+							<td>N/A</td>
+						</tr>
+						<tr>
+							<td>Unique Gadget</td>
+							<td>Breaching Rounds</td>
+							<td>2 X</td>
+							<td>M120 Crem</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- modals -->
+			<div id="id01" class="w3-modal">
+				<div class="w3-modal-content w3-animate-top w3-card-4">
+				  <header class="w3-container w3-teal"> 
+					<span onclick="document.getElementById('id01').style.display='none'" 
+					class="w3-button w3-display-topright">&times;</span>
+					<h2>G36C</h2>
+				  </header>
+				  <div class="w3-container">
+				<div class="tbs-table-modal">
+				<table class="container">
+					<thead>
+						<tr>
+							<th><h1>Damage</h1></th>
+							<th><h1>Rate of fire</h1></th>
+							<th><h1>Mobility</h1></th>
+							<th><h1>Magazine size</h1></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>38</td>
+							<td>780 RPM</td>
+							<td>50</td>
+							<td>30+1</td>
+						</tr>
+						<tr>
+							<td>32 Suppressed</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				  </div>
+				  <footer class="w3-container w3-teal">
+					<p>Close this Modal in the upper right corner!</p>
+				  </footer>
+				</div>
+			</div>
+			<!-- end of modals -->
 			<div class="history-panel w3-panel w3-black w3-text-white" data-aos="fade-left">
 				<i class="fa fa-quote-right w3-xxlarge w3-margin-right"></i><p>"Breach Charge ready!"</p>
 			</div>
@@ -141,6 +240,7 @@ AOS.init({
 <script>
 	$(".txt-color").html(function(n,t){return"<span>"+$.trim(t).split("").join("</span><span>")+"</span>"});
 </script>
+
 
 
 </body>
