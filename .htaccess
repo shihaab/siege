@@ -1,3 +1,45 @@
+#######################################################################
+#     Diese .htaccess wurde vom STRATO-Webservermanager erstellt      #
+#######################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ErrorDocument 404 https://r6.tombstone-squad.com/404
+
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
